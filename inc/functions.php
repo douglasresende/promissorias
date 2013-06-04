@@ -51,6 +51,7 @@ function valorPorExtenso($valor=0) {
 
   $z=0;
 
+  $valor = ereg_replace("\.",'',$valor);
   $valor = number_format($valor, 2, ".", ".");
   $inteiro = explode(".", $valor);
   for($i=0;$i<count($inteiro);$i++)

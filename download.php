@@ -10,19 +10,19 @@
 
 // DADOS DA PROMISSORIA
 $quantidade = $_POST['quantidade'];
-$data       = $_POST['data']; // "01/01/2013";
-$valor      = $_POST['valor']; // "500,00";
+$data       = $_POST['data'];
+$valor      = $_POST['valor'];
 // DADOS DO VENDEDOR
-$v_nome 		= utf8_decode($_POST['v_nome']); // "Ilma Francisca Resende Camargo";
-$v_cpfcnpj 	= $_POST['v_cpfcnpj']; // '111.111.111-11';
+$v_nome 		= utf8_decode($_POST['v_nome']);
+$v_cpfcnpj 	= $_POST['v_cpfcnpj'];
 // DADOS DO CLIENTE
-$c_nome 		= utf8_decode($_POST['c_nome']); // 'Nome do Cliente';
-$c_cpfcnpj 	= $_POST['c_cpfcnpj']; // '222.222.222-22';
-$c_endereco = utf8_decode($_POST['c_endereco']); // 'Rua C, Qd. X, Lt. X';
-$c_bairro 	= utf8_decode($_POST['c_bairro']); // 'Jardim América';
-$c_cep 			= $_POST['c_cep']; // '74000-000';
-$c_cidade 	= utf8_decode($_POST['c_cidade']); // 'Goiânia';
-$c_estado 	= utf8_decode($_POST['c_estado']); // 'Goiás';
+$c_nome 		= utf8_decode($_POST['c_nome']);
+$c_cpfcnpj 	= $_POST['c_cpfcnpj'];
+$c_endereco = utf8_decode($_POST['c_endereco']);
+$c_bairro 	= utf8_decode($_POST['c_bairro']);
+$c_cep 			= $_POST['c_cep'];
+$c_cidade 	= utf8_decode($_POST['c_cidade']);
+$c_estado 	= utf8_decode($_POST['c_estado']);
 
 
 include_once("inc/functions.php");
