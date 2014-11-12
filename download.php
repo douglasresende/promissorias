@@ -3,7 +3,7 @@
 * Autor: Douglas R Camargo/BR - douglas@maxstudio.com.br 
 * Date : 13/05/2013
 * 
-* Description: Gerador de promissÛrias.
+* Description: Gerador de promiss√≥rias.
 * 
 * 
 */
@@ -13,16 +13,16 @@ $quantidade = $_POST['quantidade'];
 $data       = $_POST['data']; // "01/01/2013";
 $valor      = $_POST['valor']; // "500,00";
 // DADOS DO VENDEDOR
-$v_nome 		= utf8_decode($_POST['v_nome']); // "Ilma Francisca Resende Camargo";
+$v_nome 		= utf8_decode($_POST['v_nome']); // "Nome do Vendedor";
 $v_cpfcnpj 	= $_POST['v_cpfcnpj']; // '111.111.111-11';
 // DADOS DO CLIENTE
 $c_nome 		= utf8_decode($_POST['c_nome']); // 'Nome do Cliente';
 $c_cpfcnpj 	= $_POST['c_cpfcnpj']; // '222.222.222-22';
 $c_endereco = utf8_decode($_POST['c_endereco']); // 'Rua C, Qd. X, Lt. X';
-$c_bairro 	= utf8_decode($_POST['c_bairro']); // 'Jardim AmÈrica';
+$c_bairro 	= utf8_decode($_POST['c_bairro']); // 'Jardim Am√©rica';
 $c_cep 			= $_POST['c_cep']; // '74000-000';
-$c_cidade 	= utf8_decode($_POST['c_cidade']); // 'Goi‚nia';
-$c_estado 	= utf8_decode($_POST['c_estado']); // 'Goi·s';
+$c_cidade 	= utf8_decode($_POST['c_cidade']); // 'Goi√¢nia';
+$c_estado 	= utf8_decode($_POST['c_estado']); // 'Goi√°s';
 
 
 include_once("inc/functions.php");
